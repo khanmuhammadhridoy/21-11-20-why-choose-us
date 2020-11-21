@@ -1,0 +1,59 @@
+.why-us {
+    background: white;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+.why-us .head {
+    text-align: center;
+
+}
+
+.why-us .head h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.why-us .head p {
+    padding: 10px;
+}
+
+.why-us .head h1::before {
+    position: absolute;
+    content: "";
+    background: #c59b69;
+    opacity: .75;
+    width: 90px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.why-us .head h1::after {
+    position: absolute;
+    content: "";
+    background: #000000;
+    opacity: 1;
+    width: 40px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.why-us .box {
+    text-align: center;
+}
+
+.why-us .box img {
+    padding: 20px;
+}
+
+.why-us .box h3 {
+    padding: 10px;
+}
